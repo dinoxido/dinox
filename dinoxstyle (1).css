@@ -1,0 +1,40 @@
+
+h1 {
+    color: #C6B9CD; font-family: 'Courier New', Courier, monospace; text-align: center; background-color: #1f1d35; font-size: 50px; margin-block-end: 0; margin-block-start: 0;
+  }
+h2  {
+     text-align: center; font-family: cursive; font-size: 25px; color: #e5cff1;
+}
+body {
+    font-family: cursive; font-size: 25px; background-color: rgb(141, 187, 130); 
+}
+.main {
+    background-color:#8b57adea;
+    padding: 30px;
+ }
+#banner{
+    width: 100%;
+}
+p {
+    font-size: 20px; text-align: center; color:#131a02; padding-right: 90px;
+}
+#pau{
+ color: #131a02;
+}
+
+ ul {
+    font-style:italic; 
+    display:inline-block;
+    vertical-align: top ;
+    margin-right: 10%; 
+    text-align: left;
+    color: #131a02;
+ }
+ .coisas {
+    background-color: #c0b33b;
+ }
+
+ .bene {
+    width: 50%; 
+    padding: 20px;
+ }
