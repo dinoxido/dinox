@@ -6,6 +6,9 @@ h1 {
      font-size: 50px; margin-block-end: 0; 
      margin-block-start: 0;
      margin-bottom: 12px;
+     border-style:double;
+     border-color: #312323;
+     border-width: 20px;
   }
 h2  {
     text-align: center;
@@ -17,16 +20,21 @@ body {
     font-family: cursive;
     font-size: 25px; 
     background-color: #63626273;
+  
 }
 .main {
     background-color:#312323;
     padding: 30px;
     overflow: auto;  
+    border-style:double;
+    border-color: #705F5C;
+    border-width: 20px;
  }
 #banner{
     width: 45%; 
     float: right;
     margin-left: 10px;
+    animation: animacao1 2s ease-in-out , animacao2 1s ease-in-out  ;
 
 }
 p {
@@ -58,3 +66,14 @@ p {
     width: 40%;
     
  }
+  
+  @keyframes animacao2 {
+    0% {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+    100% {
+      opacity: 1;
+      transform:scaleY(1)
+    }
+  }
