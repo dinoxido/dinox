@@ -1,0 +1,108 @@
+
+h1 {
+    color: #FFD899; 
+    font-family: 'Courier New', Courier, monospace;
+     text-align: center; 
+     background-color: rgba(112, 95, 92, 0.9); 
+     font-size: 50px; margin-block-end: 0; 
+     margin-block-start: 0;
+     margin-bottom: 12px;
+     border-style: double;
+     border-color:#312323;
+     border-width: 15px;
+     border-radius: 20px;
+  }
+h2  {
+    text-align: center;
+    font-family: cursive; 
+    font-size: 25px; 
+    color: #FFD899;
+}
+body {
+    font-family: cursive;
+    font-size: 25px; 
+    background-image: url(2505.png);
+    background-size: cover;
+}
+#logodebosta{
+  width: 20%; 
+    float: top;
+    margin-left: 10px;
+    animation: mover 1s ease-in  ;
+    align-content: center;
+}   
+header{
+  background-color: rgba(168, 155, 137, 0.9);
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+.main {
+    background-color:rgba(49, 35, 35, 0.9);
+    padding: 30px;
+    overflow: auto; 
+    border-style: double;
+     border-color:#705F5C;
+     border-width: 15px; 
+     border-radius: 20px;
+
+ }
+#banner{ 
+    width: 45%; 
+    float: right;
+    margin-left: 10px;
+    animation: mover 1s ease-in  ;
+
+}
+p {
+    font-size: 20px; 
+    text-align: justify; 
+    color:#FFD899;
+    padding-right: 30px;
+}
+#rola{
+    color: #FFD899;
+}
+#pipi{
+    color:#705F5C
+}
+ ul {
+    font-style:italic; 
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 34%;
+    color: #131a02;
+
+ }
+ .coisas {
+    background-color:rgba(255, 187, 92, 0.9);
+    border-style: double;
+    border-color:#312323;
+    border-width: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+ }
+  
+ .bene {
+    width: 40%;
+    animation: mover 1s ease-in  ; 
+ }
+
+ 
+ @keyframes mover {
+  0% {
+    transform:translateY(-100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+    opaciity: 1;
+  }
+}
+
+
+  
+
