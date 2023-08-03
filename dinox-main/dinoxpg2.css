@@ -1,0 +1,41 @@
+#logodebosta{
+    width: 200px; 
+    margin-left: 10px;
+    float: left;
+}
+header{
+    background-color: rgba(168, 155, 137, 0.9);
+    margin-bottom: 15px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 20px;
+  }
+  header ul{
+    font-style:italic; 
+    vertical-align: top;
+    margin-left :auto;
+    width: 20%;
+    color: #131a02;
+  }
+  body {
+    font-family: cursive;
+    font-size: 25px; 
+    background-image: url(2505.png);
+    background-size: cover;
+}
+p{
+    font-size: 20px; 
+    text-align: justify; 
+    color:#FFD899;
+    padding-right: 30px;
+}
+.content{
+    background-color:rgba(49, 35, 35, 0.9);
+    padding: 30px;
+    overflow: auto; 
+    border-style: double;
+     border-color:#705F5C;
+     border-width: 15px; 
+     border-radius: 20px;
+     color:#FFD899;
+}
