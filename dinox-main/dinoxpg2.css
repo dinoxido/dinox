@@ -1,5 +1,5 @@
 #logodebosta{
-    width: 200px; 
+    width: 300px; 
     margin-left: 10px;
     float: left;
 }
@@ -15,7 +15,12 @@ header{
     vertical-align: top;
     margin-left :auto;
     width: 20%;
-    color: #131a02;
+    color: floralwhite;
+
+  }
+  header ul a {
+    color: floralwhite;
+    text-decoration: none;
   }
   body {
     font-family: cursive;

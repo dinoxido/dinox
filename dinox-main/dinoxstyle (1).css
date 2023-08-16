@@ -25,23 +25,21 @@ body {
     background-size: cover;
 }
 .logodebosta{
+  top: 5px;
+  right: 10px;
   width: 300px; 
-  float:right;
   margin: 15px;
-    animation: mover 1s ease-in  ;
+  animation: mover 1s ease-in  ;
     
 }   
 header{
-  background-color: rgba(168, 155, 137, 0.9);
-  margin-bottom: 15px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-between; 
+    padding: 10px 0;
+    background-color: rgba(168, 155, 137, 0.9);
+    margin-bottom: 15px;
+    border-radius: 20px;
+    
 }
-header p{
-  display: inline;
-  margin-right: 20px;
-}
+
 .main {
     background-color:rgba(49, 35, 35, 0.9);
     padding: 30px;
@@ -71,14 +69,17 @@ p {
 #pipi{
     color:#705F5C
 }
- ul {
+ header ul {
     font-style:italic; 
     display:inline-block;
     vertical-align: top;
     width: 20%;
-    color: #131a02;
-
+    color: floralwhite;
  }
+  ul a {
+    text-decoration: none;
+    color: floralwhite;
+  }
  .coisas {
     background-color:rgba(255, 187, 92, 0.9);
     border-style: double;
@@ -89,6 +90,7 @@ p {
     justify-content: space-between;
     overflow: auto;
     padding: 30px;
+  
    
  }
   
@@ -97,6 +99,42 @@ p {
     animation: mover 1s ease-in  ; 
     float: right;
  }
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
 
  
  @keyframes mover {
